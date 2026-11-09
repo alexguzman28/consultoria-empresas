@@ -1,0 +1,230 @@
+{
+  "title": "Elige el Mundo Visual — VÉRTICE Partners",
+  "question": "El dado asignó 'Prospecto Soberano & Matriz de Rendimiento'. Puedes elegir esta dirección, nuestra selección principal (Impeccable's Pick), un retador competitivo o el estándar de la categoría.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Prospecto Soberano & Matriz P&L",
+      "kicker": "THE ROLL",
+      "lineage": "Prospectos de emisión de banca central e informes anuales suizos de alta densidad",
+      "thesis": "La consultoría presentada como un prospecto financiero auditable donde cada intervención se lee como un puente de EBITDA verificado.",
+      "palette": [
+        "#F6F4EE",
+        "#0C1512",
+        "#134E3A",
+        "#B45309"
+      ],
+      "materials": [
+        "papel algodón financiero",
+        "filetes tipográficos de precisión",
+        "tablas de puente EBITDA"
+      ],
+      "viewport": "Pliego editorial con diagnóstico de erosión de margen a la izquierda y puente interactivo de recuperación de EBITDA (+420 bps) a la derecha.",
+      "risk": "Puede percibirse excesivamente austero si no se acompaña de micro-interacciones fluidas en las tablas.",
+      "raised": [
+        {
+          "from": "paper-folds-pleats-deployable-miura-orbit-sheet",
+          "raise": "Propagación vinculada: modificar un parámetro operativo recalcula en cascada toda la matriz de flujo de caja."
+        },
+        {
+          "from": "pop-culture-shelf-arcade-marquee-row",
+          "raise": "Telemetría activa en reposo: el simulador muestra un caso industrial vivo desde el primer segundo antes de que el usuario interactúe."
+        }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Barra Institucional & Índices", "x": 0, "y": 0, "w": 12, "h": 1, "accent": false },
+          { "label": "Tesis & Dictamen Ejecutivo", "x": 0, "y": 1, "w": 7, "h": 5, "accent": false },
+          { "label": "Puente de EBITDA Interactivo", "x": 7, "y": 1, "w": 5, "h": 6, "accent": true },
+          { "label": "Métricas Auditadas en Campo", "x": 0, "y": 6, "w": 7, "h": 4, "accent": false },
+          { "label": "Solicitud de Diagnóstico", "x": 7, "y": 7, "w": 5, "h": 3, "accent": false }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/assigned.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "Dossier Forense de Operaciones y Telemetría",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Cuadernos de Due Diligence operativo, salas de control industrial y auditoría forense de costos",
+      "thesis": "Un dossier quirúrgico de ingeniería operativa que reemplaza el discurso corporativo por telemetría de planta y estados de resultados desglosados.",
+      "palette": [
+        "#0B0F17",
+        "#F4F1EA",
+        "#0F766E",
+        "#D97706"
+      ],
+      "materials": [
+        "pizarra mineral oscura",
+        "papel hueso de expediente técnico",
+        "indicadores de telemetría esmeralda y ámbar"
+      ],
+      "viewport": "Cabecera de alto contraste con consola de diagnóstico operativo en vivo, curvas de eficiencia OEE y calculadora de impacto financiero inmediato.",
+      "risk": "Es el punto de convergencia más natural para consultoras de alto rigor técnico y financiero.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Cabecera de Telemetría & Navegación", "x": 0, "y": 0, "w": 12, "h": 1, "accent": false },
+          { "label": "Manifiesto de Ejecución en Campo", "x": 0, "y": 1, "w": 6, "h": 6, "accent": false },
+          { "label": "Consola de Diagnóstico Cuantitativo", "x": 6, "y": 1, "w": 6, "h": 6, "accent": true },
+          { "label": "Matriz de Intervención por Sprints", "x": 0, "y": 7, "w": 12, "h": 3, "accent": false }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/model-pick.png"
+    },
+    {
+      "id": "wayfinding-cartography-signage-midnight-transit-diagram",
+      "label": "Diagrama de Red Operativa en Esmalte Azul",
+      "verdict": "competitive",
+      "lineage": "Murales de red de transporte metropolitano en esmalte azul medianoche",
+      "thesis": "La empresa vista como una red de líneas operativas (Suministro, Planta, Comercial, Finanzas) donde identificamos y desbloqueamos los cuellos de botella en las intersecciones.",
+      "palette": [
+        "#0A1628",
+        "#F8FAFC",
+        "#E11D48",
+        "#F59E0B"
+      ],
+      "materials": [
+        "esmalte azul medianoche",
+        "trazos vectoriales a 45° y 90°",
+        "nodos de transferencia de porcelana blanca"
+      ],
+      "viewport": "Mapa esquemático interactivo de los 4 corredores de valor empresarial con estaciones de auditoría y tiempos de ciclo.",
+      "case": "Se fusiona con fuerza para explicar cuellos de botella en procesos complejos; requiere disciplina para no eclipsar las cifras financieras.",
+      "risk": "Puede leerse como una plataforma de logística o transporte si no se ancla en métricas de P&L.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Índice de Líneas Operativas", "x": 0, "y": 0, "w": 3, "h": 10, "accent": false },
+          { "label": "Diagrama de Red de Valor & Cuellos de Botella", "x": 3, "y": 0, "w": 9, "h": 7, "accent": true },
+          { "label": "Telemetría de Estación Seleccionada", "x": 3, "y": 7, "w": 9, "h": 3, "accent": false }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/challenger-transit.png",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram.webp"
+    },
+    {
+      "id": "craft-making-coptic-exposed-binding",
+      "label": "Estructura Expuesta (Coptic Structural Ledger)",
+      "verdict": "competitive",
+      "lineage": "Encuadernación cóptica de lomo expuesto y pliegos cosidos a la vista",
+      "thesis": "Consultoría sin cajas negras: exponemos la costura exacta entre cada decisión operativa en piso y su reflejo en el estado de resultados.",
+      "palette": [
+        "#F2ECE1",
+        "#1C1917",
+        "#9A3412",
+        "#3F6212"
+      ],
+      "materials": [
+        "cartón piedra expuesto",
+        "hilo de lino encerado",
+        "pliegos numerados al margen"
+      ],
+      "viewport": "Doble página con costuras de conexión visibles entre indicadores de planta (izquierda) y estados financieros (derecha).",
+      "case": "Comunica transparencia metodológica radical, aunque es menos inmediato para directivos acostumbrados a tableros digitales.",
+      "risk": "La metáfora artesanal puede restar percepción de escala industrial si domina sobre los datos.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Pliego Operativo (Planta)", "x": 0, "y": 0, "w": 5, "h": 10, "accent": false },
+          { "label": "Columna de Costura & Trazabilidad", "x": 5, "y": 0, "w": 2, "h": 10, "accent": true },
+          { "label": "Pliego Financiero (EBITDA)", "x": 7, "y": 0, "w": 5, "h": 10, "accent": false }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/challenger-coptic.png",
+      "hero": "https://impeccable.style/worlds/cards/craft-making-coptic-exposed-binding-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/craft-making-coptic-exposed-binding.webp"
+    },
+    {
+      "id": "paper-folds-pleats-deployable-miura-orbit-sheet",
+      "label": "Pliego Desplegable Miura (Miura-Fold Sheet)",
+      "verdict": "declined",
+      "lineage": "Pliegues aeroespaciales teselados Miura-ori",
+      "thesis": "Un pliego compacto que al abrirse despliega toda la topología de costos de la organización.",
+      "palette": [
+        "#F8FAFC",
+        "#0F172A",
+        "#CA8A04",
+        "#93C5FD"
+      ],
+      "materials": [
+        "papel técnico plisado",
+        "acento en hoja de oro",
+        "retícula en paralelogramo"
+      ],
+      "viewport": "Malla teselada que se expande al seleccionar un área de negocio.",
+      "case": "La retícula diagonal dificulta la lectura rápida de tablas financieras comparativas para un CEO.",
+      "risk": "La geometría oblicua sacrifica legibilidad tabular.",
+      "kept": "Propagación vinculada: un ajuste en un supuesto operativo actualiza toda la sábana financiera en cascada.",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet-hero.webp"
+    },
+    {
+      "id": "pop-culture-shelf-arcade-marquee-row",
+      "label": "Fila de Marquesinas Retroiluminadas",
+      "verdict": "declined",
+      "lineage": "Pasillos de gabinetes arcade con marquesinas encendidas y pantallas en bucle",
+      "thesis": "Cada vertical de consultoría como una consola activa que demuestra su resultado antes de invertir.",
+      "palette": [
+        "#090A0F",
+        "#22D3EE",
+        "#EC4899",
+        "#F8FAFC"
+      ],
+      "materials": [
+        "acrílico retroiluminado",
+        "tipografía fosforescente",
+        "contraste nocturno"
+      ],
+      "viewport": "Secuencia de consolas con simulaciones activas en bucle.",
+      "case": "Inadecuado para la sobriedad fiduciaria que exige un consejo de administración o CEO industrial.",
+      "risk": "Tono lúdico incompatible con reestructuración corporativa de alto nivel.",
+      "kept": "Modo demostración en reposo (Attract state): el simulador de EBITDA corre un escenario vivo desde que carga la página.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-arcade-marquee-row-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Estándar Ejecutivo B2B (Executive Advisory Grid)",
+    "thesis": "La arquitectura corporativa clásica de las grandes firmas globales de estrategia, ejecutada con precisión impecable.",
+    "palette": [
+      "#F8FAFC",
+      "#0F172A",
+      "#0369A1",
+      "#334155"
+    ],
+    "materials": [
+      "retícula suiza limpia",
+      "azul marino institucional",
+      "tarjetas de indicadores sobrias"
+    ],
+    "viewport": "Hero institucional de alta autoridad con indicadores clave, prácticas de consultoría y contacto ejecutivo.",
+    "risk": "Más familiar y cercano a las firmas de consultoría tradicionales.",
+    "wireframe": {
+      "cols": 12,
+      "rows": 10,
+      "regions": [
+        { "label": "Navegación Corporativa", "x": 0, "y": 0, "w": 12, "h": 1, "accent": false },
+        { "label": "Hero Institucional & CTA", "x": 0, "y": 1, "w": 12, "h": 5, "accent": true },
+        { "label": "Prácticas & Casos de Éxito", "x": 0, "y": 6, "w": 12, "h": 4, "accent": false }
+      ]
+    },
+    "comp": ".impeccable/mocks/decision/canon.png"
+  },
+  "steer": true
+}

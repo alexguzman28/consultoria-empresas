@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T21:05:00.000Z",
+  "title": "Design System: VÉRTICE Partners",
+  "extensions": {
+    "colorMeta": {
+      "sovereign-green": {
+        "role": "primary",
+        "displayName": "Sovereign Forest Ink",
+        "canonical": "#134E3A",
+        "tonalRamp": ["#071F17", "#092C20", "#0D3B2B", "#134E3A", "#1F6E53", "#3B8F72", "#84BFA9", "#D3E8DF"]
+      },
+      "audit-copper": {
+        "role": "secondary",
+        "displayName": "Audit Copper Seal",
+        "canonical": "#B45309",
+        "tonalRamp": ["#451A03", "#78350F", "#92400E", "#B45309", "#D97706", "#F59E0B", "#FCD34D", "#FEF3C7"]
+      },
+      "cotton-paper": {
+        "role": "neutral",
+        "displayName": "Cotton Rag Paper",
+        "canonical": "#F6F4EE",
+        "tonalRamp": ["#1C1B18", "#3A3832", "#6E6A5F", "#A39E90", "#CFC8B8", "#DFD9CC", "#EAE5D9", "#F6F4EE"]
+      },
+      "carbon-ink": {
+        "role": "neutral",
+        "displayName": "Carbon Ledger Ink",
+        "canonical": "#0C1512",
+        "tonalRamp": ["#0C1512", "#1E2924", "#2A3631", "#3E4C45", "#525E58", "#7A8780", "#B0BFB8", "#E3EAE6"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display Prospectus Serif",
+        "purpose": "Opening thesis and primary institutional dictamen."
+      },
+      "headline": {
+        "displayName": "Section Ledger Headline",
+        "purpose": "Major section headers across the prospectus."
+      },
+      "body": {
+        "displayName": "Analytical Body Sans",
+        "purpose": "Operational descriptions, methodology clauses, and case context."
+      },
+      "label": {
+        "displayName": "Tabular Audit Monospace",
+        "purpose": "P&L bridge figures, basis points, registry codes, and telemetry."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "cascade-transition",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Smooth tabular state updates and button color transitions."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1400px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Prospectus Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary executive CTA button in Sovereign Forest Ink.",
+      "html": "<button class=\"ds-btn-primary\">SOLICITAR DIAGNÓSTICO EN CAMPO</button>",
+      "css": ".ds-btn-primary { background: #134E3A; color: #F6F4EE; padding: 12px 24px; font-size: 12px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid #134E3A; border-radius: 0; cursor: pointer; transition: background-color 0.2s; } .ds-btn-primary:hover { background: #0D3B2B; } .ds-btn-primary:focus-visible { outline: 2px solid #134E3A; outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Ledger Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action button with 1px Carbon Ink border.",
+      "html": "<button class=\"ds-btn-outline\">INSPECCIONAR PLIEGOS DE CASO</button>",
+      "css": ".ds-btn-outline { background: #F6F4EE; color: #0C1512; padding: 12px 20px; font-size: 13px; font-weight: 600; border: 1px solid #0C1512; border-radius: 0; cursor: pointer; transition: background-color 0.2s; } .ds-btn-outline:hover { background: #EAE5D9; } .ds-btn-outline:focus-visible { outline: 2px solid #134E3A; outline-offset: 2px; }"
+    },
+    {
+      "name": "Audit Ledger Input Field",
+      "kind": "input",
+      "refersTo": "input-default",
+      "description": "Validated form input with visible uppercase label and sharp border.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\">CARGO EN EL CONSEJO *</label><input class=\"ds-input\" placeholder=\"Ej. Director General (CEO)\" /></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; } .ds-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #0C1512; } .ds-input { min-height: 44px; background: #F6F4EE; border: 1px solid #B8B0A0; padding: 8px 14px; font-size: 14px; color: #0C1512; border-radius: 0; } .ds-input:focus-visible { outline: 2px solid #134E3A; outline-offset: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sovereign Bond & P&L Audit Prospectus",
+    "overview": "VÉRTICE Partners rejects the generic management-consulting aesthetic of stock office photography, soft SaaS cards, and vague aspirational slogans. Instead, the entire interface is constructed as an institutional financial monograph and operational audit ledger.",
+    "keyCharacteristics": [
+      "Architectural 12-column prospectus spreads divided by exposed 1px hairline rules (#0C1512 and #CFC8B8).",
+      "High-authority editorial serif headings (Libre Caslon Text) paired with institutional Public Sans body copy and JetBrains Mono tabular figures.",
+      "Zero rounded card bloat (0px border radius across all ledger tables, buttons, and inputs).",
+      "Linked cascade financial simulation (Miura-fold propagation) and live telemetry cycling at rest."
+    ],
+    "rules": [
+      {
+        "name": "The Ledger Integrity Rule",
+        "body": "Never use gradients, glowing neon accents, or translucent glass blur. Authority comes from flat cotton-paper grounds contrasted against solid #134E3A ink blocks and crisp #0C1512 rules.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Eyebrow Rule",
+        "body": "Headings (h1-h4) always lead their container directly. Never place a small kicker or eyebrow label above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Engraved Border Rule",
+        "body": "Hierarchy is communicated through border weight (1px internal hairline vs. 2px section header rule) and surface tone shifts rather than drop shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do present services and case studies as structured specification rows and before/after P&L reconciliation tables.",
+      "Do label all synthetic or illustrative financial demonstrations explicitly with provenance notices.",
+      "Do provide explicit Skeleton loading, Error alert, and Empty filter states for data views and forms."
+    ],
+    "donts": [
+      "Don't place kickers or eyebrow labels above headings (h1-h4).",
+      "Don't use 3-column equal-height icon cards or nested cards.",
+      "Don't use emojis or unstyled browser defaults for scrollbars, text selection, or form validation."
+    ]
+  }
+}

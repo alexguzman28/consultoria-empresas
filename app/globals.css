@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  --bg-carbon: #09090B;
+  --bg-card: #121215;
+  --bg-card-elevated: #17171B;
+  --accent-orange: #F27427;
+  --accent-orange-bright: #FB853C;
+  --ink-white: #FFFFFF;
+  --ink-muted: #9CA3AF;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --status-green: #22C55E;
+  --status-red: #EF4444;
+}
+
+@layer base {
+  html {
+    background-color: var(--bg-carbon);
+    color: var(--ink-white);
+    caret-color: var(--accent-orange);
+    scroll-behavior: smooth;
+    font-family: var(--font-public-sans), system-ui, -apple-system, sans-serif;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  ::selection {
+    background-color: #F27427;
+    color: #FFFFFF;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-public-sans), system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  code,
+  pre,
+  table,
+  .font-mono,
+  .tabular-nums {
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid #F27427;
+    outline-offset: 2px;
+  }
+}
+
+/* Ambient copper-bronze light beams matching the Buildly reference */
+.hero-spotlight-beams {
+  background:
+    radial-gradient(ellipse 65% 45% at 50% 0%, rgba(242, 116, 39, 0.24) 0%, rgba(180, 75, 20, 0.08) 45%, transparent 75%),
+    conic-gradient(from 145deg at 50% -10%, transparent 0deg, rgba(242, 116, 39, 0.12) 18deg, transparent 35deg, rgba(242, 116, 39, 0.09) 52deg, transparent 72deg);
+}
+
+/* Warm diagonal copper sheen for featured pricing/problem cards */
+.copper-card-glow {
+  background:
+    linear-gradient(135deg, rgba(242, 116, 39, 0.22) 0%, rgba(242, 116, 39, 0.04) 42%, rgba(18, 18, 21, 0.96) 100%);
+}
+
+.copper-corner-glow {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(242, 116, 39, 0.14) 0%, transparent 55%),
+    #121215;
+}
+
+/* Custom sleek range slider matching reference Strategy Simulator */
+input[type="range"].simulator-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: #27272A;
+  outline: none;
+}
+
+input[type="range"].simulator-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  border: 3px solid #D4D4D8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+input[type="range"].simulator-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  border-color: #F27427;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F27427;
+}
